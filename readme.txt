@@ -29,6 +29,9 @@ When version 1.0.0 is released, yes!
 = Youtube instruction =
 http://www.youtube.com/watch?v=h5QoT9D-EjI
 
+= Check out our website =
+http://www.wptooling.com
+
 == Screenshots ==
 
 
