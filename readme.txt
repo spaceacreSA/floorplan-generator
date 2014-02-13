@@ -27,7 +27,7 @@ The Floorplan Generator is an easy-to-use plugin for WordPress that allows admin
 When version 1.0.0 is released, yes!
 
 = Youtube instruction =
-http://www.youtube.com/channel/UCGtfInDpulq-3knu0i9leVQ/videos
+http://www.youtube.com/watch?v=h5QoT9D-EjI
 
 == Screenshots ==
 
