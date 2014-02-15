@@ -33,7 +33,7 @@ When version 1.0.0 is released, yes!
 Changing floorplan images is actually very simple. When you are editing your floorplan – just click the icon for the room you want to edit to open the image in a lightbox. You will see two icons to the left of the lightbox to edit or delete the room.
 
 = Can I hide the camera icon from my users? =
-Absolutely. When editing a floorplan just check the box labeled “Don’t show camera’s on website”.
+Absolutely. When editing a floorplan just check the box labeled \“Don\’t show camera’s on website\”.
 
 = How do I create a main floorplan image? =
 Well, the main floorplan image is something you’ll need to create on your own. The Floorplan plugin is intended to allow you to add images of your rooms after you’ve already made a main floorplan image.
