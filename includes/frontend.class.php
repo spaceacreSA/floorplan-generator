@@ -54,12 +54,13 @@ class floorplan_frontend{
                     			                    
 						$mark_image_left = $position["left"];
 						$mark_image_top =  $position["top"];
-														
+
+						$floorplan_camera_options = get_option( 'floorplan_camera_options' );
 							if(!empty($mark_image)){
 							?>      
 
-					   <a id="<?php echo $post_id,'_mark_image_'.$i;?>" href="<?php  echo site_url().$mark_image;?>" class="btn" rel="map_gallery" style="position: absolute; top:<?php echo $mark_image_top; ?>px; left:<?php echo $mark_image_left; ?>px; " >
-								<img src="<?php echo plugins_url('/floorplan-generator/images/camera-button.png');?>" />
+					   <a id="<?php echo $post_id,'_mark_image_'.$i;?>" href="<?php echo site_url().$mark_image;?>" class="btn" rel="map_gallery" style=" <?php if ($floorplan_camera_options == 'on'){?>opacity: 0; width:60px; height:33px;<?php }?> position: absolute; top:<?php echo $mark_image_top; ?>px; left:<?php echo $mark_image_left; ?>px; " >
+								<?php if ($floorplan_camera_options == 'off') {?><img src="<?php echo plugins_url('/floorplan-generator/images/camera-button.png');?>" /><?php }?>
 						</a>
 			
 					<?php

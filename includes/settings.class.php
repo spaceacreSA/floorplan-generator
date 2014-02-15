@@ -2,6 +2,24 @@
 class floorplan_settings{
 	function __construct()
 	{
+		//SET CAMERAS ON OR OFF
+		function save_camera_options()
+		{
+			$postID = $_POST ['post_ID'];
+			$post = get_post ( $postID );
+		
+			if ($post->post_type == 'floorplans') {
+				if ($_POST['camera_options'] == 'on') {
+					update_option( 'floorplan_camera_options', 'on' );
+				}
+				else{
+					update_option( 'floorplan_camera_options', 'off' );
+				}
+			}
+		}
+		add_action ( 'save_post', 'save_camera_options' );
+		
+	
 		#SET CUSTOM POST TYPE
 		add_action( 'init', 'create_post_type' );
 		function create_post_type()

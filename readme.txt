@@ -4,11 +4,11 @@ Donate link: http://www.wptooling.com
 Tags: pdf, generator
 Requires at least: 3.4
 Tested up to: 3.8
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Upload a floorplan and add position markers to show (room) images.
+
  
  == Description ==
  
@@ -23,14 +23,8 @@ The Floorplan Generator is an easy-to-use plugin for WordPress that allows admin
 
 == Frequently Asked Questions ==
 
-= This plugin is stable ? =
+This plugin is stable ?
 When version 1.0.0 is released, yes!
-
-= Youtube instruction =
-http://www.youtube.com/watch?v=h5QoT9D-EjI
-
-= Check out our website =
-http://www.wptooling.com
 
 == Screenshots ==
 
@@ -43,6 +37,11 @@ http://www.wptooling.com
 01/30/2014
 
 - Initial commit
+
+= 0.2 =
+14/02/2014
+
+- Added option for user to remove room markers
 
 == Upgrade Notice ==
 

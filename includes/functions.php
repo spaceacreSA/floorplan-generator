@@ -125,7 +125,6 @@ function is_200($url)
 
 	return $code === 200;
 }
-	
 	// STORE FLOORPLAN DATA
 function save_floorplan_img() {
 		$postID = $_POST ['post_ID'];

@@ -94,7 +94,8 @@ class admin_floorplan {
                      id="draggableimg" class="ui-widget-header" /></a><br >
 	<div id="fp-instruction-msg">Please drag the camera to your floorplan</div>
         <!--input type="button" value="Clear All" onclick="clearAllCameras();" class="btn btn-primary" /-->
-</div>
+</div><br/>
+
 
 <?php if(isset($_REQUEST['post']))
 		{?>
@@ -102,6 +103,11 @@ class admin_floorplan {
 		Use this shortcode to display the floorplan on your website: [FLOORPLAN post_id=<?php echo $_REQUEST['post']; ?>]
 	</div>
 <?php }?>
+<br/>
+
+<div>
+<input type='checkbox' name="camera_options" id='<?php echo $_REQUEST['post'];?>' <?php if (get_option( 'floorplan_camera_options' ) == 'on'){echo 'CHECKED';} ?>> Don't show camera's on website
+</div>
 
 <div class="clear"></div>
 

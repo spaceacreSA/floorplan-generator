@@ -182,7 +182,7 @@ function delete_room(marker_id){
 		{
 			action: 'floorplan_delete_changes_action',
 			marker_id: marker_id,
-                        q:'deleteRoom',
+           q:'deleteRoom',
 		};
 	jQuery.post(ajaxurl, data, function(response) {	
                   var res = jQuery.parseJSON(response);
