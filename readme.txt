@@ -52,10 +52,10 @@ http://www.wptooling.com
 
 == Screenshots ==
 
-1.
-2.
-3.
-4.
+1. This is the overview of the different floorplans in your website.
+2. Add the floorplan shortcodes to your pages.
+3. An overview of the floorplan settings
+4. This is how the uploaded images will appear in a lightbox
 
 == Changelog ==
 
