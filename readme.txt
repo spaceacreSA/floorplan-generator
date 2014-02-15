@@ -44,6 +44,11 @@ http://www.wptooling.com
 
 - Initial commit
 
+= 0.2 = 
+14/02/2014
+
+- Added option to remove room markers
+
 == Upgrade Notice ==
 
 
