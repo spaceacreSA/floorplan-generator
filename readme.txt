@@ -15,7 +15,7 @@ Upload a floorplan and add position markers to show (room) images.
 The Floorplan is an easy-to-use plugin for WordPress that allows administrators to add a main floorplan image along with pictures of individual rooms. When added to your WordPress site it will appear to your users as an interactive floorplan wherein they can click on rooms to see larger pictures. 
 
 = Youtube instruction =
-http://www.youtube.com/watch?v=h5QoT9D-EjI 
+http://www.youtube.com/watch?v=3-Me2MKur34
 
  == Installation ==
 
