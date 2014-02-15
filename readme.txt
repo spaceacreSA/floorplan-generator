@@ -1,10 +1,10 @@
-=== Floorplan Generator ===
+=== Floorplan ===
 Contributors: maartenhemmes
 Donate link: http://www.wptooling.com
 Tags: pdf, generator
 Requires at least: 3.4
 Tested up to: 3.8
-Stable tag: 0.2
+Stable tag: 0.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,16 +12,16 @@ Upload a floorplan and add position markers to show (room) images.
  
  == Description ==
  
-The Floorplan Generator is an easy-to-use plugin for WordPress that allows administrators to add a main floorplan image along with pictures of individual rooms. When added to your WordPress site it will appear to your users as an interactive floorplan wherein they can click on rooms to see larger pictures. 
+The Floorplan is an easy-to-use plugin for WordPress that allows administrators to add a main floorplan image along with pictures of individual rooms. When added to your WordPress site it will appear to your users as an interactive floorplan wherein they can click on rooms to see larger pictures. 
 
 = Youtube instruction =
 http://www.youtube.com/watch?v=h5QoT9D-EjI 
 
  == Installation ==
 
-1. Download 'floorplan-generator'.
-2. Upload the 'floorplan-generator' directory to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...)
-3. Activate 'floorplan-generator' from your Plugins page.
+1. Download 'floorplan'.
+2. Upload the 'floorplan' directory to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...)
+3. Activate 'floorplan' from your Plugins page.
 4. Use the tab 'Floorplans' in the admin to create you first Floorplan!
 
 == Frequently Asked Questions ==
@@ -66,6 +66,11 @@ http://www.wptooling.com
 14/02/2014
 
 - Added option to remove room markers
+
+= 0.2.1 = 
+15/02/2014
+
+- Changed name plugin to Floorplan
 
 == Upgrade Notice ==
 

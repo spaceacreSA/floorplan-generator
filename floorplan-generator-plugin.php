@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Floorplan Generator
+Plugin Name: Floorplan
 Plugin URI: http://www.wptooling.com
 Description: Upload a floorplan and add position markers to show (room) images.
 Version: 0.2
