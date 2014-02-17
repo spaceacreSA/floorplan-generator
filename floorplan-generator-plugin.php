@@ -3,7 +3,7 @@
 Plugin Name: Floorplan
 Plugin URI: http://www.wptooling.com
 Description: Upload a floorplan and add position markers to show (room) images.
-Version: 0.2.2.1
+Version: 0.2.2.2
 Author: Maarten Hemmes - WPTooling
 Author URI: http://www.wptooling.com
 License: A "Slug" license name e.g. GPL2
