@@ -106,7 +106,7 @@ class admin_floorplan {
 <br/>
 
 <div>
-<input type='checkbox' name="camera_options" id='<?php echo $_REQUEST['post'];?>' <?php if (get_post_meta($_REQUEST['post'], 'floorplan_camera_options', true) == 'on'){echo 'CHECKED';} ?>> Don't show camera's on website
+<input type='checkbox' name="camera_options" id='<?php echo $_REQUEST['post'];?>' <?php if (get_post_meta($_REQUEST['post'], 'floorplan_camera_options', true) == 'off'){echo 'CHECKED';} ?>> Don't show camera's on website
 </div>
 
 <div class="clear"></div>
