@@ -55,7 +55,8 @@ class floorplan_frontend{
 						$mark_image_left = $position["left"];
 						$mark_image_top =  $position["top"];
 
-						$floorplan_camera_options = get_option( 'floorplan_camera_options' );
+						$floorplan_camera_options = get_post_meta($post_id, 'floorplan_camera_options', true);
+						
 							if(!empty($mark_image)){
 							?>      
 

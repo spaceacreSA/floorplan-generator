@@ -10,11 +10,12 @@ class floorplan_settings{
 		
 			if ($post->post_type == 'floorplans') {
 				if ($_POST['camera_options'] == 'on') {
-					update_option( 'floorplan_camera_options', 'on' );
+					//update_option( 'floorplan_camera_options', 'on' );
+					update_post_meta($postID, 'floorplan_camera_options', 'on');
 				}
 				else{
-					update_option( 'floorplan_camera_options', 'off' );
-				}
+					update_post_meta($postID, 'floorplan_camera_options', 'off');
+					}
 			}
 		}
 		add_action ( 'save_post', 'save_camera_options' );
