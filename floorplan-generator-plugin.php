@@ -23,4 +23,4 @@ include('includes/functions.php');
 $settings = new floorplan_settings();
 $frontend = new floorplan_frontend();
 $admin = new admin_floorplan();
-$wp_tooling = new wp_tooling();
+//$wp_tooling = new wp_tooling();
