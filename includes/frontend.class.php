@@ -61,7 +61,7 @@ class floorplan_frontend{
 							?>      
 
 					   <a id="<?php echo $post_id,'_mark_image_'.$i;?>" href="<?php echo site_url().$mark_image;?>" class="btn" rel="map_gallery" style=" <?php if ($floorplan_camera_options == 'on'){?>opacity: 0; width:60px; height:33px;<?php }?> position: absolute; top:<?php echo $mark_image_top; ?>px; left:<?php echo $mark_image_left; ?>px; " >
-								<?php if ($floorplan_camera_options == 'off') {?><img src="<?php echo plugins_url('/floorplan-generator/images/camera-button.png');?>" /><?php }?>
+								<?php if ($floorplan_camera_options != 'on') {?><img src="<?php echo plugins_url('/floorplan-generator/images/camera-button.png');?>" /><?php }?>
 						</a>
 			
 					<?php
