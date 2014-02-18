@@ -37,6 +37,7 @@ class wp_tooling
 			<div>
 			<iframe src='http://wptooling.com/feedback-so-we-can-make-our-plugins-even-better' style="width:100%; height:500px;" frameborder='0'></iframe>
 			</div>
+			<a href="http://wptooling.com/feedback-so-we-can-make-our-plugins-even-better" target="_blank">Open in new tab.</a>
 		<?php 
 		}
 	}
