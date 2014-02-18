@@ -4,7 +4,7 @@ Donate link: http://www.wptooling.com
 Tags: pdf, generator
 Requires at least: 3.4
 Tested up to: 3.8
-Stable tag: 0.2.2.2
+Stable tag: 0.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,6 +78,11 @@ http://www.wptooling.com
 17/02/2014
 
 - Fixed bug regarding to camera options.
+
+= 0.2.3 = 
+17/02/2014
+
+- Added WP Tooling menu to backend. For feedback and help.
 
 == Upgrade Notice ==
 
