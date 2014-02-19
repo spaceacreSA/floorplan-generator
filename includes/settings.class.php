@@ -19,7 +19,6 @@ class floorplan_settings{
 		}
 		add_action ( 'save_post', 'save_camera_options' );
 		
-	
 		#SET CUSTOM POST TYPE
 		add_action( 'init', 'create_post_type' );
 		function create_post_type()
@@ -54,14 +53,15 @@ class floorplan_settings{
 		function floorplans_menu() 
 			{
 				add_menu_page ( 'WP Tooling', 'WP Tooling', 'manage_options', 'wp-tooling', 'floorplans_plugins' );
-				add_submenu_page( 'edit.php?post_type=floorplans', 'Feedback', 'Feedback', 'manage_options', 'wp-tooling', 'wptooling_feedback');
+				add_submenu_page( 'edit.php?post_type=floorplans', 'Feedback', 'Feedback', 'manage_options', 'wp-tooling', 'floorplans_feedback');
 				add_submenu_page( 'edit.php?post_type=floorplans', 'Help', 'Help', 'manage_options', 'help', 'floorplans_faq');
+				add_submenu_page( 'edit.php?post_type=floorplans', 'Settings', 'Settings', 'manage_options', 'settings', 'floorplans_settings');	
 			}
 		add_action ( 'admin_menu', 'floorplans_menu' );
 		
 		function floorplans_plugins()
-		{
-		}
+			{
+			}
 		
 		function floorplans_faq()
 			{
@@ -83,6 +83,17 @@ class floorplan_settings{
 						<a href="http://wptooling.com/feedback-so-we-can-make-our-plugins-even-better" target="_blank">Open in new tab.</a>
 						<?php 
 			}
+			
+		function floorplans_settings()
+		{
+			?>
+			<br/>
+			<div>Floorplan Settings</div>
+			<div>
+			<input type='checkbox' name="floorplan_backlinks"> Don't show 'Plugin by WP Tooling' on website
+			</div>
+			<?php 
+		}
 		
 		##INIT DIRECTORY FOR UPLOADING PDF##
 		$dir_name = WP_CONTENT_DIR.'/uploads/floorplans/';
