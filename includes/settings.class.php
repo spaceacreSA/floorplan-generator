@@ -50,6 +50,24 @@ class floorplan_settings{
 			);
 		}
 		
+		// ADD NEW COLUMN
+		function shortcodes_head($defaults) {
+			$defaults['Shortcode'] = 'Shortcode';
+			return $defaults;
+		}
+		add_filter('manage_posts_columns', 'shortcodes_head');
+		
+		// SHOW THE FEATURED IMAGE
+		function shortcodes_head_content($column_name, $post_ID) {
+			if ($column_name == 'Shortcode') {
+			?>
+				 [FLOORPLAN post_id=<?php echo $post_ID; ?>]
+			<?php 
+			}
+		}
+		add_action('manage_posts_custom_column', 'shortcodes_head_content', 10, 2);
+		
+		
 		function floorplans_menu() 
 			{
 				add_menu_page ( 'WP Tooling', 'WP Tooling', 'manage_options', 'wp-tooling', 'floorplans_plugins' );

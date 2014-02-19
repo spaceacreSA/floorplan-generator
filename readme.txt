@@ -4,7 +4,7 @@ Donate link: http://www.wptooling.com
 Tags: pdf, generator
 Requires at least: 3.4
 Tested up to: 3.8.1
-Stable tag: 0.2.3.1
+Stable tag: 0.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -89,6 +89,12 @@ http://www.wptooling.com
 
 - Added backlinks to front-end
 - Fixed bug saving posts
+
+= 0.2.4 = 
+18/02/2014
+
+- Added option to get an overview of shortcodes
+- Added setting to turn of 'Powered by WP Tooling
 
 == Upgrade Notice ==
 
