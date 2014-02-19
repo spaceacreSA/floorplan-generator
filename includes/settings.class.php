@@ -31,6 +31,7 @@ class floorplan_settings{
 			'labels' => array(
 			'name' => __('Floorplans'),
 			'singular_name' => __('Floorplan'),
+			'all_items' => __('View All'),
 			'edit_item' => __('Edit Floorplan'),
 			'new_item' => __('New Floorplan'),
 			'view_item' => __('View Floorplan'),
