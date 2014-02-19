@@ -1,7 +1,7 @@
 === Floorplan ===
 Contributors: maartenhemmes, kizinko
 Donate link: http://www.wptooling.com
-Tags: pdf, generator
+Tags: floorplan, generator
 Requires at least: 3.4
 Tested up to: 3.8.1
 Stable tag: 0.2.4
