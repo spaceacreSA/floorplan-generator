@@ -69,7 +69,8 @@ class floorplan_frontend{
 						}
                                                 ?>
                    </div>
-                                              <?php 
+                   <span style="display: none !important;"><a title="Website Virtual Tour" href="http://wptooling.com/product/floorplan">Website Floor Plan</a> Plugin by WP Tooling</span>
+        <?php 
 			}
 		add_shortcode('FLOORPLAN', 'display_floorplan_frontend');		
 	}

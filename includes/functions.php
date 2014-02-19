@@ -138,4 +138,3 @@ function save_floorplan_img() {
 	}
 }
 add_action ( 'save_post', 'save_floorplan_img' );
-add_action('wp_insert_post_data', 'save_floorplan_img');
