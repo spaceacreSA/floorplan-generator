@@ -94,7 +94,6 @@ http://www.wptooling.com
 18/02/2014
 
 - Added option to get an overview of shortcodes
-- Added setting to turn of 'Powered by WP Tooling
 
 == Upgrade Notice ==
 

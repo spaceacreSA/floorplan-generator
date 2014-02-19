@@ -73,7 +73,7 @@ class floorplan_settings{
 				add_menu_page ( 'WP Tooling', 'WP Tooling', 'manage_options', 'wp-tooling', 'floorplans_plugins' );
 				add_submenu_page( 'edit.php?post_type=floorplans', 'Feedback', 'Feedback', 'manage_options', 'wp-tooling', 'floorplans_feedback');
 				add_submenu_page( 'edit.php?post_type=floorplans', 'Help', 'Help', 'manage_options', 'help', 'floorplans_faq');
-				add_submenu_page( 'edit.php?post_type=floorplans', 'Settings', 'Settings', 'manage_options', 'settings', 'floorplans_settings');	
+				//add_submenu_page( 'edit.php?post_type=floorplans', 'Settings', 'Settings', 'manage_options', 'settings', 'floorplans_settings');	
 			}
 		add_action ( 'admin_menu', 'floorplans_menu' );
 		
