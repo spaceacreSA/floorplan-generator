@@ -1,5 +1,5 @@
 === Floorplan ===
-Contributors: maartenhemmes
+Contributors: maartenhemmes, kizinko
 Donate link: http://www.wptooling.com
 Tags: pdf, generator
 Requires at least: 3.4
