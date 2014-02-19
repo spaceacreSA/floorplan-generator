@@ -10,7 +10,6 @@ class floorplan_settings{
 		
 			if ($post->post_type == 'floorplans') {
 				if ($_POST['camera_options'] == 'on') {
-					//update_option( 'floorplan_camera_options', 'on' );
 					update_post_meta($postID, 'floorplan_camera_options', 'off');
 				}
 				else{
@@ -51,22 +50,45 @@ class floorplan_settings{
 			);
 		}
 		
-		##SET CATEGORIES FOR CUSTOM POST TYPE
-	//	register_taxonomy("Office", array("floorplans"));
+		function floorplans_menu() 
+			{
+				add_menu_page ( 'WP Tooling', 'WP Tooling', 'manage_options', 'wp-tooling', 'floorplans_plugins' );
+				add_submenu_page( 'edit.php?post_type=floorplans', 'Feedback', 'Feedback', 'manage_options', 'wp-tooling', 'wptooling_feedback');
+				add_submenu_page( 'edit.php?post_type=floorplans', 'Help', 'Help', 'manage_options', 'help', 'floorplans_faq');
+			}
+		add_action ( 'admin_menu', 'floorplans_menu' );
 		
-		
-	/*	function remove_metaboxes(){
-			remove_meta_box('slugdiv', 'obpcontacts', 'normal'); // Slug
-			remove_meta_box('submitdiv', 'obpcontacts', 'side'); // Publish box
+		function floorplans_plugins()
+		{
 		}
-		add_action( 'add_meta_boxes', 'remove_metaboxes', 11 );*/
+		
+		function floorplans_faq()
+			{
+					?>
+					<ul>
+						<li><a href="http://wptooling.com/forum" target="_blank">Forums</a></li>
+						<li><a href="http://wptooling.com/faq" target="_blank">FAQs</a></li>
+					</ul>
+					<?php 
+			}
+				
+		function floorplans_feedback()
+			{
+						?>
+						<br/>
+						<div>
+						<iframe src='http://wptooling.com/feedback-so-we-can-make-our-plugins-even-better' style="width:100%; height:500px;" frameborder='0'></iframe>
+						</div>
+						<a href="http://wptooling.com/feedback-so-we-can-make-our-plugins-even-better" target="_blank">Open in new tab.</a>
+						<?php 
+			}
 		
 		##INIT DIRECTORY FOR UPLOADING PDF##
 		$dir_name = WP_CONTENT_DIR.'/uploads/floorplans/';
 		if ( ! is_dir($dir_name) )
-		{
-			wp_mkdir_p($dir_name) or die("Could not create Floorplan Generator directory " . $dir_name);
-		}
+			{
+				wp_mkdir_p($dir_name) or die("Could not create Floorplan Generator directory " . $dir_name);
+			}
 		
 		
 	}

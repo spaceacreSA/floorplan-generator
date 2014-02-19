@@ -30,11 +30,6 @@ class admin_floorplan {
 		}
 		add_action ( 'admin_enqueue_scripts', 'load_admin_scripts' );
 		
-		function floorplan_menu() {
-			add_menu_page ( 'Floorplan Generator', 'Floorplan Generator', 'manage_options', 'floorplan-generator', 'floorplan_options' );
-		}
-		//add_action ( 'admin_menu', 'floorplan_menu' );
-		
 		function admin_init() {
 			add_meta_box ( "floorplan_admin-meta", "Floorplan", "floorplan_admin", "floorplans", "normal", "high" );
 		}

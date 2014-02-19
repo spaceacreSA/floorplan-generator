@@ -18,10 +18,8 @@ include('includes/frontend.class.php');
 include('includes/settings.class.php');
 include('includes/resize.php');
 include('includes/functions.php');
-include('includes/wptooling.class.php');
 
 ##INITIATE CLASSES##
 $settings = new floorplan_settings();
 $frontend = new floorplan_frontend();
 $admin = new admin_floorplan();
-$wp_tooling = new wp_tooling();
