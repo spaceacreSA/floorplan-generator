@@ -1,5 +1,5 @@
 === Floorplan ===
-Contributors: maartenhemmes, kizinko
+Contributors: maartenhemmes, kizinko, jcreamer898
 Donate link: http://www.wptooling.com
 Tags: virtual tour, floor plan, floorplan, location, locations, location map, map, mapper, maping, maps, store, stores
 Requires at least: 3.4
