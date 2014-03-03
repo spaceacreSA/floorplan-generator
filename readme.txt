@@ -1,7 +1,7 @@
 === Floorplan ===
 Contributors: maartenhemmes, kizinko
 Donate link: http://www.wptooling.com
-Tags: floorplan, generator
+Tags: virtual tour, floor plan, floorplan, location, locations, location map, map, mapper, maping, maps, store, stores
 Requires at least: 3.4
 Tested up to: 3.8.1
 Stable tag: 0.2.4
